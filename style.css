@@ -1,1 +1,179 @@
 
+Create a premium, modern CSS design for a personal portfolio website of "V. Harish – MBA Student".
+
+DESIGN STYLE:
+- Professional MBA/business portfolio
+- Modern 3D glassmorphism design
+- Dark navy/black background
+- Purple and cyan gradient accents
+- Premium corporate appearance
+- Clean and minimal layout
+- Fully responsive for desktop, tablet and mobile
+
+COLOR PALETTE:
+- Background: #070914
+- Card background: rgba(255,255,255,0.07)
+- Primary purple: #8B5CF6
+- Secondary cyan: #22D3EE
+- Main text: #F7F7FB
+- Secondary text: #AEB5CA
+- Borders: rgba(255,255,255,0.13)
+
+NAVBAR:
+- Fixed at the top
+- Transparent glass effect
+- backdrop-filter blur
+- Thin glowing border
+- V. Harish logo on the left
+- Navigation links on the right
+- Smooth hover animation
+- Purple/cyan hover glow
+- Mobile hamburger menu
+
+HERO SECTION:
+- Full-screen height
+- Two-column layout
+- Left side contains:
+  "Hello, I'm"
+  "V. Harish"
+  "MBA Student"
+- Use a large bold heading
+- Apply purple-to-cyan gradient text to the name
+- Add a short professional description
+- Add modern CTA buttons
+- Right side contains the profile photo
+- Create a 3D floating photo card
+- Rounded corners
+- Glowing border
+- Box shadow
+- Subtle rotateX/rotateY hover animation
+- Add floating badges such as "MBA Student" and "Business • Finance • Digital"
+
+PROFILE PHOTO:
+- Circular or rounded-square professional presentation
+- object-fit: cover
+- object-position: center top
+- Smooth border radius
+- Add glowing gradient behind the image
+- Add 3D shadow
+- Ensure the image remains responsive
+
+SECTION DESIGN:
+- Each section should have generous spacing
+- Use glassmorphism cards
+- Border: 1px solid rgba(255,255,255,.13)
+- Border radius: 20–28px
+- backdrop-filter: blur(12px)
+- Subtle shadows
+- Cards should lift upward on hover
+- Add transform: translateY(-5px)
+- Add smooth transition: .3s ease
+
+SECTION HEADINGS:
+- Large modern typography
+- Small uppercase eyebrow label
+- Purple/cyan accent
+- Gradient heading where appropriate
+- Add subtle underline/glow effect
+
+EDUCATION TIMELINE:
+- Create a vertical timeline
+- Use glowing purple/cyan dots
+- Connect items with a gradient line
+- Each education item should be a glass card
+- Year should use cyan color
+- Institution name should be bold
+- Add hover animation
+
+EXPERIENCE:
+- Create a large premium internship card
+- Add subtle 3D hover effect
+- Highlight "India Post Payment Bank"
+- Use a purple/cyan gradient accent
+
+SKILLS:
+- Display skills as modern pill-shaped cards
+- Add hover glow
+- Animate slightly when hovered
+- Use glass effect
+
+CERTIFICATIONS:
+- Use responsive grid cards
+- Add small icons or decorative gradient elements
+- Cards should have 3D hover effects
+
+ACHIEVEMENT:
+- Create a highlighted "Best Outgoing Student" card
+- Use a premium gradient background
+- Add subtle glow
+- Make it visually different from normal cards
+
+CONTACT SECTION:
+- Dark premium background
+- Glass contact cards
+- Email, phone, location, LinkedIn and Instagram
+- Add hover effects
+- LinkedIn button should have a professional blue accent
+- Instagram button should have a gradient accent
+
+BUTTONS:
+- Rounded 10–14px
+- Bold typography
+- Purple gradient primary button
+- Transparent glass secondary button
+- Hover transform translateY(-3px)
+- Add box-shadow glow
+- Smooth transitions
+
+ANIMATIONS:
+- Fade-in sections when scrolling
+- Slide-up card animations
+- Floating profile image
+- Gentle background glow animation
+- Button hover animations
+- Card 3D hover effect
+- Keep animations smooth and professional
+- Respect prefers-reduced-motion
+
+BACKGROUND:
+- Use multiple radial gradients
+- Add subtle grid pattern
+- Add blurred glowing circles
+- Keep background professional and not distracting
+
+RESPONSIVE DESIGN:
+Desktop:
+- Two-column hero
+- Full navigation
+
+Tablet:
+- Adjust spacing and font sizes
+
+Mobile:
+- One-column layout
+- Mobile navigation
+- Profile photo centered
+- Buttons stack vertically
+- Education timeline becomes compact
+- Cards become single-column
+- No horizontal scrolling
+
+TYPOGRAPHY:
+Use a clean modern font such as:
+- Inter
+- Poppins
+- Manrope
+
+Use:
+- font-weight 400 for normal text
+- 600–700 for headings
+- 800–900 for hero title
+
+IMPORTANT:
+- Do not use excessive animations
+- Do not make the design look like a gaming website
+- Keep it professional for an MBA student
+- Make the portfolio look like a premium personal brand website
+- Ensure every element works correctly on mobile
+- Ensure good contrast and readability
+- Use smooth transitions throughout
