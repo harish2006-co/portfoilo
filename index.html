@@ -1,143 +1,371 @@
-Create a modern, professional, responsive personal portfolio website for an MBA student named "V. Harish".
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-PERSONAL DETAILS:
-Name: V. Harish
-Title: MBA Student
-Location: Tiruchirappalli, Tamil Nadu, India
-Phone: +91 9524092799
-Email: veluharish2006@gmail.com
-LinkedIn: https://www.linkedin.com/in/harish-v-543169345/
-Instagram: https://www.instagram.com/harish_offical_1/
+    <title>V. Harish | MBA Student Portfolio</title>
 
-WEBSITE STYLE:
-- Premium modern portfolio design
-- Professional MBA/business theme
-- 3D glassmorphism cards
-- Dark navy/black background
-- Purple and cyan gradient accents
-- Smooth animations
-- Subtle 3D hover effects
-- Beautiful glowing background effects
-- Clean typography
-- Fully responsive on mobile, tablet and desktop
-- Professional but attractive design
-- Use CSS only for animations; no unnecessary libraries
-- Add smooth scrolling
-- Add a sticky navigation bar
-- Add animated section reveals
-- Make the website look like a high-quality professional portfolio
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
 
-HOME / HERO SECTION:
-Display:
-"Hello, I'm"
-"V. Harish"
-"MBA Student"
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
 
-Add a short introduction:
-"I am an MBA student with a B.Com CA background, internship experience in the financial department, and interests in communication, social media management, digital marketing and AI in business."
+<body>
 
-Add buttons:
-- Explore My Profile
-- Contact Me
-- LinkedIn
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">V<span>.</span>Harish</div>
 
-Add my professional profile photo prominently on the right side.
-Use the uploaded profile photo.
-The photo must display correctly even when index.html is opened locally.
-Prefer embedding the image as Base64 or otherwise ensure the image path works correctly.
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-ABOUT ME:
-Create a professional About Me section explaining that I am currently pursuing an MBA at SRM Trichy Arts and Science College and have completed B.Com CA at National College, Trichy.
 
-EDUCATION:
-Create a modern vertical timeline.
+    <!-- Home Section -->
+    <section id="home" class="hero">
 
-1. Master of Business Administration (MBA)
-   SRM Trichy Arts and Science College
-   Currently Appearing
+        <div class="hero-content">
 
-2. B.Com CA
-   National College, Trichy
-   2023–2026
-   67%
+            <p class="welcome">HELLO, I'M</p>
 
-3. Higher Secondary – 12th
-   Bishop Heber Higher Secondary School
-   Teppakulam, Trichy
-   2021–2023
+            <h1>V. <span>Harish</span></h1>
 
-4. 6th–10th
-   Bishop Heber Higher Secondary School
-   Teppakulam, Trichy
+            <h2>MBA Student & Future Business Professional</h2>
 
-EXPERIENCE:
-India Post Payment Bank – Internship
-Department: Financial Department
-Location: Trichy
-Duration: 02 January 2026 – 20 March 2026
+            <p class="hero-text">
+                Welcome to my personal portfolio website.
+                I am an MBA student interested in business,
+                management, technology and professional development.
+            </p>
 
-Create this as an attractive 3D experience card.
+            <div class="hero-buttons">
+                <a href="#about" class="btn">Explore My Portfolio</a>
 
-SKILLS:
-- Communication Skills
-- Social Media Management
+                <a href="https://www.linkedin.com/in/harish-v-543169345"
+                   target="_blank"
+                   class="btn secondary">
+                    LinkedIn
+                </a>
+            </div>
 
-Create animated skill cards.
+        </div>
 
-CERTIFICATIONS:
-- DCA – 2024
-- Full Stack Development – 2024
-- One Day Workshop – Digital Marketing – 2025
-- One Day Workshop – AI in Business – 2026
-- Registration Certificate – 2026
 
-ACHIEVEMENT:
-Create a highlighted achievement card:
-"Best Outgoing Student"
-2023–2026
+        <!-- Profile Image -->
+        <div class="profile-container">
 
-INTERESTS:
-- Mobile Gaming
-- Watching TV
-- Research and related areas
+            <div class="circle-3d"></div>
 
-LANGUAGES:
-- Tamil – Read, Speak
-- English – Read
+            <div class="profile-card">
 
-CONTACT SECTION:
-Create a professional contact section with:
-Email
-Phone
-Location
-LinkedIn
-Instagram
+                <img src="profile.jpg"
+                     alt="V. Harish Profile Photo"
+                     class="profile-image">
 
-Make the LinkedIn button clickable:
-https://www.linkedin.com/in/harish-v-543169345/
+            </div>
 
-Make the Instagram button clickable:
-https://www.instagram.com/harish_offical_1/
+        </div>
 
-FOOTER:
-"© 2026 V. Harish | MBA Student Portfolio"
+    </section>
 
-TECHNICAL REQUIREMENTS:
-- Generate complete HTML5
-- Use CSS3
-- Use JavaScript for animations/interactions
-- Put everything in a single index.html file where possible
-- No broken image links
-- Profile photo must display correctly
-- Mobile responsive
-- Semantic HTML
-- SEO-friendly title and meta description
-- Accessible buttons and links
-- Add hover effects
-- Add scroll animations
-- Add 3D card effects
-- Add a mobile hamburger menu
-- Do not use placeholder text
-- Do not remove any of the provided information
 
-The final result should look like a premium professional MBA student's personal portfolio website, not a basic student webpage.
+    <!-- About Section -->
+    <section id="about" class="section">
+
+        <div class="section-title">
+            <p>ABOUT ME</p>
+            <h2>Who I Am</h2>
+        </div>
+
+        <div class="about-container">
+
+            <div class="about-card">
+
+                <h3>Hello! I'm V. Harish 👋</h3>
+
+                <p>
+                    I am currently pursuing my MBA and developing my
+                    knowledge in business management, communication,
+                    finance, marketing and technology.
+                </p>
+
+                <p>
+                    I am interested in learning new skills, working on
+                    practical projects and building a successful
+                    professional career.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Education Section -->
+    <section id="education" class="section education-section">
+
+        <div class="section-title">
+            <p>MY JOURNEY</p>
+            <h2>Education</h2>
+        </div>
+
+        <div class="timeline">
+
+            <!-- MBA -->
+            <div class="education-card">
+
+                <div class="education-icon">🎓</div>
+
+                <div>
+                    <h3>Master of Business Administration</h3>
+
+                    <p class="year">2026 – Present</p>
+
+                    <p>
+                        Currently pursuing MBA and developing knowledge
+                        in management, business and professional skills.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <!-- 12th -->
+            <div class="education-card">
+
+                <div class="education-icon">📚</div>
+
+                <div>
+                    <h3>Higher Secondary – 12th</h3>
+
+                    <p class="year">2021 – 2023</p>
+
+                    <p>
+                        Bishop Heber Higher Secondary School,
+                        Teppakulam, Trichy.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <!-- 6th - 10th -->
+            <div class="education-card">
+
+                <div class="education-icon">🏫</div>
+
+                <div>
+                    <h3>Secondary School – 6th to 10th</h3>
+
+                    <p class="year">2016 – 2021</p>
+
+                    <p>
+                        Bishop Heber Higher Secondary School,
+                        Teppakulam, Trichy.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Skills -->
+    <section id="skills" class="section">
+
+        <div class="section-title">
+            <p>MY ABILITIES</p>
+            <h2>Skills</h2>
+        </div>
+
+        <div class="skills-container">
+
+            <div class="skill-card">
+                <div class="skill-icon">💻</div>
+                <h3>Basic Computer Skills</h3>
+                <p>Computer applications and digital tools.</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">📊</div>
+                <h3>Business Management</h3>
+                <p>Understanding of management concepts.</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">📈</div>
+                <h3>Finance</h3>
+                <p>Basic financial and accounting knowledge.</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">🗣️</div>
+                <h3>Communication</h3>
+                <p>Professional communication and presentation.</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">🌐</div>
+                <h3>Web Development</h3>
+                <p>HTML, CSS and basic website development.</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">📱</div>
+                <h3>Social Media</h3>
+                <p>Content creation and social media concepts.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Projects -->
+    <section id="projects" class="section projects-section">
+
+        <div class="section-title">
+            <p>MY WORK</p>
+            <h2>Projects</h2>
+        </div>
+
+        <div class="projects-container">
+
+            <div class="project-card">
+
+                <div class="project-number">01</div>
+
+                <h3>Personal Portfolio Website</h3>
+
+                <p>
+                    A responsive personal portfolio website created
+                    using HTML and CSS.
+                </p>
+
+                <span>HTML</span>
+                <span>CSS</span>
+
+            </div>
+
+
+            <div class="project-card">
+
+                <div class="project-number">02</div>
+
+                <h3>Business Management Project</h3>
+
+                <p>
+                    Academic project based on business and management
+                    concepts as part of MBA studies.
+                </p>
+
+                <span>Management</span>
+                <span>Business</span>
+
+            </div>
+
+
+            <div class="project-card">
+
+                <div class="project-number">03</div>
+
+                <h3>Social Media Project</h3>
+
+                <p>
+                    Exploring social media content, digital branding
+                    and online communication.
+                </p>
+
+                <span>Social Media</span>
+                <span>Digital</span>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Contact -->
+    <section id="contact" class="section contact-section">
+
+        <div class="section-title">
+            <p>GET IN TOUCH</p>
+            <h2>Contact Me</h2>
+        </div>
+
+        <div class="contact-card">
+
+            <h3>Let's Connect</h3>
+
+            <p>
+                Thank you for visiting my portfolio.
+                You can connect with me through LinkedIn.
+            </p>
+
+            <a href="https://www.linkedin.com/in/harish-v-543169345"
+               target="_blank"
+               class="linkedin-button">
+                Visit My LinkedIn
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <div class="footer-logo">
+            V<span>.</span>Harish
+        </div>
+
+        <p>
+            © 2026 V. Harish. All Rights Reserved.
+        </p>
+
+        <p>
+            MBA Student | Business & Technology
+        </p>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script>
+
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+
+            anchor.addEventListener('click', function (e) {
+
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href'))
+                    .scrollIntoView({
+                        behavior: 'smooth'
+                    });
+
+            });
+
+        });
+
+    </script>
+
+</body>
+</html>
